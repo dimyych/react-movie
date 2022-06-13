@@ -1,0 +1,62 @@
+.movieList__item {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.movie-card {
+  width: 200px;
+  overflow: hidden;
+  margin: 0 12px;
+  margin-bottom: 35px;
+  z-index: 1;
+}
+
+.movie-card:hover {
+  position: relative;
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
+.movie-card .fa-trash {
+  display: none;
+}
+
+.movie-card__image {
+  border: 1px solid rgb(211, 211, 211);
+  padding: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.movie-card__image > * {
+  width: 100%;
+}
+
+.movie-card__title {
+  color: rgb(0, 143, 161);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.movie-card__text {
+  color: rgb(104, 104, 104);
+  font-weight: bold;
+}
+
+.fa-heart:hover {
+  color: rgb(202, 202, 202);
+  transform: scale(1);
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.movieList .container{
+  min-height: 500px;
+}
+.whileEmpty{
+  font-size: 40px;
+  color: rgb(0, 143, 161);
+  margin: 0 auto;
+  margin-top: 100px;
+}

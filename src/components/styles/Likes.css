@@ -1,0 +1,37 @@
+.Likes {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.Likes .fa-heart {
+  display: none;
+}
+.fa-trash:hover {
+  color: rgb(202, 202, 202);
+  transform: scale(1);
+  transition: all;
+  transition-duration: 0.5s;
+}
+.svg-inline--fa {
+  color: rgb(255, 255, 255);
+}
+
+.Likes .fa-trash {
+  display: block;
+}
+.Likes__back {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 19px;
+}
+.fa-arrow-up {
+  margin-left: 30px;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+  color: #000;
+  transform: rotate(-90deg);
+}

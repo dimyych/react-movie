@@ -1,0 +1,28 @@
+.pagination {
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.waves-effect a{
+  display: block;
+  padding: 4px 8px;
+  margin: 0 5px;
+  font-size: 21px;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+.waves-effect1{
+  display: block;
+  padding: 3px 10px;
+  margin: 0 5px;
+  font-size: 21px;
+}
+
+.active>a{
+  background-color: rgb(185, 185, 185);
+}

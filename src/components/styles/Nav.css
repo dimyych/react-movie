@@ -1,0 +1,20 @@
+.nav>*{
+    display: flex;
+    align-items: center;
+}
+.nav .fa-heart:hover{
+    transform: scale(1.5);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.nav__search{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav__search-img{
+    height: 20px;
+}

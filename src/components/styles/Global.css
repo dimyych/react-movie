@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-section {
+  width: 100%;
+  background-color: inherit;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  padding: 20px 50px;
+}
+
