@@ -1,4 +1,4 @@
-https://movie-d2d8b.web.app/ - посилання на робочий сайт
+https://movie-d2d8b.web.app - посилання на робочий сайт
 
 
 
